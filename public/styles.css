@@ -1,0 +1,56 @@
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.square {
+  width: 216.49px;
+  height: 206px;
+  background: linear-gradient(
+    233.16deg,
+    #00b0ce -10.31%,
+    rgba(0, 176, 206, 0.3) 110.31%
+  );
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  color: #00b0ce;
+  mix-blend-mode: normal;
+}
+
+.unselected {
+  opacity: 0.3;
+}
+
+.circle {
+  width: 113px;
+  height: 107.53px;
+  background: linear-gradient(
+    233.16deg,
+    #00b0ce -47.28%,
+    rgba(0, 176, 206, 0.3) 73.34%
+  );
+  mix-blend-mode: normal;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direction_right {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
